@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JapaExpress</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/all.css">
+</head>
+<body>
+
+    <div class="hero">
+        <header>
+            <div class="wrapper">
+                <div class="logo">
+                    JapaExpress <span></span>
+                </div>
+
+                <div class="nav">
+                    <ul>
+                        <li><a href="#">Booking</a></li>
+                        <li><a href="#">Advise</a></li>
+                        <li><a href="#">Packages</a></li>
+                        <li><a href="#">Destinations</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="cta">
+                    <ul>
+                        <li><a href="#">Register</a></li>
+                        <li class="btn">Sign In</li>
+                        <li class="languageOption"><a href="">
+                            EN <span><i class="fas fa-caret-down"></i></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </header>
+
+        <div class="hero-text wrapper">
+
+            <h1>
+                Brotherly! wetin dey sup,</br>you no go <span>Japa</span>?
+            </h1>
+            <div class="link"><a href="">
+                Explore Now <span><i class="fas fa-long-arrow-alt-right"></i></span></a>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="bookings wrapper">
+        <div class="nav-menu">
+            <a class="nav-link active" href="#">
+                <span><i class="fas fa-plane"></i></span>
+                <p class="booking-text">Flight</p>
+            </a>
+            
+            <a class="nav-link" href="#">
+                <span><i class="fas fa-hotel"></i></span>
+                <p class="booking-text">Hotel</p>
+            </a>
+
+            <a class="nav-link" href="#">
+                <span><i class="fas fa-car"></i></span>
+                <p class="booking-text">Rent a Car</p>
+            </a>
+
+        </div>
+
+        <div class="pane wrapper">
+
+            <div class="pad">
+                <div class="selections">
+                    <select name="trip-type" id="trip-type">
+                        <option value="one-way">One-way Trip</option>
+                        <option value="round" selected>Round Trip</option>
+                    </select>
+                
+                    <select name="passenger-count" id="passenger-count">
+                        <option value="one">01 Passenger</option>
+                        <option value="two" selected>02 Passengers</option>
+                        <option value="three">03 Passengers</option>
+                        <option value="four">04 Passengers</option>
+                        <option value="five">05 Passengers</option>
+                    </select>
+
+                    <select name="class" id="class">
+                        <option value="economy">Economy Class</option>
+                        <option value="business" selected>Business Class</option>
+                    </select>
+                </div>
+
+                <div class="inputs">
+                    <div class="input-box">
+                        <p class="title">from</p>
+                        <select name="location" id="location">
+                            <option value="abuja">Abuja</option>
+                            <option value="benin">Benin</option>
+                            <option value="calabar">Calabar</option>
+                            <option value="lagos" selected>Lagos</option>
+                            <option value="ph">Port Harcourt</option>
+                        </select>
+                        <p class="airport">Muritala Mohammed Airport (LOS)</p>
+                    </div>
+
+
+                    <div class="input-box">
+                        <p class="title">to</p>
+                        <select name="location" id="location">
+                            <option value="london" selected>London</option>
+                            <option value="tokyo">Tokyo, Japan</option>
+                            <option value="calabar">Soweto, SA</option>
+                            <option value="accra">Accra, Ghana</option>
+                            <option value="texas">Texas, USA</option>
+                        </select>
+                        <p class="airport">Heathrow Airport (LHR)</p>
+
+                        <div class="switch">
+                            <span><i class="fas fa-exchange-alt"></i></span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="input-box boxed">
+                        <div class="departure">
+                            <p class="title">departure</p>
+                            <h1 class="date">Fri, 22 Mar <span><i class="far fa-calendar"></i></span></h1>
+                            <div class="cta">
+                                <p class="airport">Prev</p>
+                                <p class="airport">Next</p>
+                            </div>
+                        </div>
+                        
+                        <div class="return">
+                            <p class="title">return</p>
+                            <h1 class="date">Mon, 2 Apr <span><i class="far fa-calendar"></i></span></h1>
+                            <div class="cta">
+                                <p class="airport">Prev</p>
+                                <p class="airport">Next</p>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                
+
+            </div>
+
+            <div class="btn">
+                Search Flights <span><i class="fas fa-long-arrow-alt-right"></i></span>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="services wrapper">
+        <div class="service-desc">
+            <div class="title">
+                Travel according to your wallet
+            </div>
+            <div class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, labore. Eius, ratione!
+            </div>
+            <div class="link"><a href="">
+                Learn more <span><i class="fas fa-long-arrow-alt-right"></i></span></a>
+            </div>
+        </div>
+        
+        <div class="service one">
+            <div class="icon">
+                <span><i class="fas fa-cloud-moon-rain"></i></span>
+            </div>
+            <div class="title">
+                Tranquility
+            </div>
+            <div class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, deleniti.
+            </div>
+            <div class="button">
+                Learn more <span><i class="fas fa-long-arrow-alt-right"></i></span>
+            </div>
+
+            <div class="bg-image"></div>
+        </div>
+        
+        <div class="service two">
+            <div class="icon">
+                <span><i class="fas fa-cloud-moon-rain"></i></span>
+            </div>
+            <div class="title">
+                Culture
+            </div>
+            <div class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, deleniti.
+            </div>
+            <div class="button">
+                Learn more <span><i class="fas fa-long-arrow-alt-right"></i></span>
+            </div>
+            
+            <div class="bg-image"></div>
+        </div>
+
+        <div class="service three">
+            <div class="icon">
+                <span><i class="fas fa-cloud-moon-rain"></i></span>
+            </div>
+            <div class="title">
+                Destinations
+            </div>
+            <div class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, deleniti.
+            </div>
+            <div class="button">
+                Learn more <span><i class="fas fa-long-arrow-alt-right"></i></span>
+            </div>
+            
+            <div class="bg-image"></div>
+        </div>
+    </div>
+
+
+    <div class="parent">
+        <div class="child">
+            <h1>Lorem ipsum dolor sit.</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consectetur doloremque illo perferendis enim veniam aliquid velit tempore nihil corporis.</p>
+        </div>
+    </div>
+
+
+</body>
+</html>
